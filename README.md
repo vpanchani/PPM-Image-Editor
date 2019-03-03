@@ -1,2 +1,7 @@
 # PPM-Image-Editor
 Add features and texts to PPM images
+
+Working with, and modifying pictures on a computer is big business. Images might be modified by performing image sharpening algorithms in order to better make out a criminal's face from a fuzzy surveillance camera photo. A company might charge a small fee for removing the "red eye" problem that flash photography suffers from, so that you can make better prints from your photos. Team members located in different cities might "mark up" an image during teleconferences in order to share their thoughts on images or graphs. And sometimes, you just want to be able to put conversation bubbles on a photo to add some humor.
+
+Each of these situations requires knowledge of how computers deal with imagery. This project was created using text file based image format which allows you to modify an image in a few specific ways. These images, unlike most other formats, are stored in an ASCII text file, which is straight forward to to work with. More complicated image formats (like .gif and .jpg) are stored in a binary file and use sophisticated compression algorithms to make the file size smaller. A .ppm image can contain the exact same image as a .gif or .jpg, but it would likely be significantly larger in file size. Since it is easy to read and write text files, the only additional information one needs is the format of the .ppm file. More information regarding .ppm file https://en.wikipedia.org/wiki/Netpbm_format
+
